@@ -1,0 +1,17 @@
+.footer {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    /*padding: 94px 48px 24px;*/
+  }
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .footer {
+        /*padding: 88px 24px 24px 24px;*/
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: calc(230px + 16px + 24px);
+        padding: 64px 0 24px 16px;
+    }
+}

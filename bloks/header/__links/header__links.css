@@ -1,0 +1,17 @@
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    width: 77px;
+    padding: 0;
+    margin: 46px 48px 0 0;
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .header__links {
+      margin-top: 30px;
+      width: 62px;
+    }
+  }
