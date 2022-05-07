@@ -5,4 +5,10 @@
     opacity: 1;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 767px){
+    .cover__background {
+        padding: 0;
+        margin: 0;
+    }
+}
 

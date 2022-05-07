@@ -6,8 +6,8 @@ line-height: 120%;
 letter-spacing: 2px;
 text-align: center;
 color: #FFFFFF;
-min-width: 640px;
-min-height: 72px;
+align-self: center;
+width: 640px;
 padding: 0;
 margin: 32px 0 64px 0;
 }
@@ -20,17 +20,17 @@ margin: 32px 0 64px 0;
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     .lead__subtitle {
-        margin-bottom: 56px;
+        margin: 0 auto;
+        padding: 0 16px 56px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__subtitle {
-        min-width: 288px;
-        min-height: 40px;
-        margin: 16px 0 40px 0;
+        margin: 0;
+        width: 288px;
+        padding: 16px 16px 40px;
         font-size: 16px;
         line-height: 125%; 
-    
     }
 }
