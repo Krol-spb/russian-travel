@@ -1,17 +1,19 @@
 .footer {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    /*padding: 94px 48px 24px;*/
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 96px);
+    margin: 0;
   }
-
-@media screen and (max-width: 1023px) and (min-width: 768px){
+  
+  @media screen and (max-width: 1279px) {
     .footer {
-        /*padding: 88px 24px 24px 24px;*/
+      max-width: calc(100% - 48px);
     }
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 767px) {
     .footer {
-        max-width: calc(230px + 16px + 24px);
-        padding: 64px 0 24px 16px;
+      max-width: calc(100% - 32px);
+      flex-direction: column;
     }
-}
+  }

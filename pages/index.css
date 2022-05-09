@@ -4,7 +4,7 @@
 /*page*/
 @import url(../page/page.css);
 /*fonts*/
-@import url(../vendor/fonts/font.css);
+@import url(../vendor/font.css);
 /*---*/
 /*header*/
 @import url(../bloks/header/header.css);
@@ -41,6 +41,7 @@
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/intro/__title/intro__title.css);
 @import url(../bloks/intro/__points/intro__points.css);
+@import url(../bloks/intro/__container/intro__container.css);
 /*photo-grid*/
 @import url(../bloks/photo-grid/__item/photo-grid__item.css);
 /*photo-grid*/

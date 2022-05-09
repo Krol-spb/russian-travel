@@ -1,10 +1,5 @@
 .cover {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    max-width: calc(1184px + 96px);
-    min-height: 740px;
-    margin: 92px 48px;
+    margin: 92px 48px 0;
 }
 
 

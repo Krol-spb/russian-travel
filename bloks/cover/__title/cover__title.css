@@ -6,10 +6,8 @@
     line-height: 106%;
     text-align: center;
     align-self: center;
-    margin-top: 245px;
     padding: 0;
-    position: absolute;
-    z-index: 2;
+    max-width: 560px;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px){
@@ -30,6 +28,7 @@
         font-weight: 900;
         font-size: 32px;
         line-height: 109%;
-        margin: 33px auto 16px;
+        margin: 33px auto 0;
+        max-width: 248px;
     }
 }
