@@ -1,20 +1,21 @@
     .header__lang-link {
-    color: #FFFFFF;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.16;
-    margin: 0;
-    padding: 0;
+      color: #FFFFFF;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.16;
+      max-width: 30px;
+      margin: 0;
+      padding: 0;
 }
 
 .header__lang-link:first-of-type {
     margin-right: 18px;
 }
-
     @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 111%;
+        max-width: 22px;
     }
 }
