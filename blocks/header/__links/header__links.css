@@ -5,5 +5,6 @@
     list-style: none;
     align-self: center;
     justify-self: center;
+    justify-content: space-between;
 }
 
